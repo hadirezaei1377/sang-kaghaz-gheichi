@@ -4,19 +4,19 @@
 
 go run main.go
 
-redis
-sqlite
-golang
+-redis
+-sqlite
+-golang
 
-یادت باشه ابتدا باید وابستگی‌های پروژه ر. نصب کنی 
+یادت باشه ابتدا باید وابستگی‌های پروژه رو نصب کنی 
 
 - **Go**:      (https://golang.org/doc/install) 
 - **Redis**:   (https://redis.io/download) 
 - **SQLite**:  (https://www.sqlite.org/download.html)
 
-go get github.com/go-redis/redis/v8
-go get gorm.io/gorm
-go get gorm.io/driver/sqlite
+- go get github.com/go-redis/redis/v8
+- go get gorm.io/gorm
+- go get gorm.io/driver/sqlite
 
 
 این دستور بازی را اجرا می‌کند و از شما می‌خواهد که یکی از گزینه‌های "rock"، "paper" یا "scissors" را وارد کنید. سیستم به طور رندوم یکی از گزینه‌ها را انتخاب می‌کند و نتیجه را نمایش می‌دهد. بازی ادامه می‌یابد تا یکی از بازیکنان به امتیاز ۳ برسد.
